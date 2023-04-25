@@ -1,0 +1,9 @@
+fastapi
+passlib
+uvicorn
+boto3
+python-dotenv
+passlib
+pydantic
+PyJWT
+cryptography

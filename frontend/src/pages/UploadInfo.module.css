@@ -1,0 +1,81 @@
+.PageWrapper {
+  display: flex;
+  height: 100%;
+}
+
+.FormWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.FormWrapper h1 {
+  text-align: center;
+}
+
+.FormWrapper form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.FormWrapper form .Row1,
+.Row3,
+.Row4,
+.Row5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.FormWrapper form .Row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FormWrapper form div {
+  margin: 0.25rem 0;
+}
+
+.FormWrapper form label {
+  font-size: 1.2rem;
+  margin-top: .5rem;
+  margin-bottom: 0.2rem;
+}
+
+.FormWrapper form .Row2 label {
+  margin: 0 0.7rem 0 0;
+}
+
+.FormWrapper form input {
+  padding: 0.5rem;
+  outline: none;
+}
+
+.FormWrapper form input[type="radio"] {
+  margin: 0 0.5rem;
+}
+
+.FormWrapper form img {
+  width: 45%;
+  height: auto;
+  margin: 0.25rem;
+}
+
+.FormWrapper button {
+  border-radius: 20px;
+  border: 1px solid #ccb5bf;
+  background-color: #ccb5bf;
+  /* color: #ffffff; */
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  margin: auto 20px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  font-family: inherit;
+  width: 10rem;
+}
